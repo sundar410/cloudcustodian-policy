@@ -4,7 +4,7 @@ policies:
    description: s3 buckets without encryption required and re-enable encryption 
    filters:
       - type: no-encryption-statement
-    actions:
+   actions:
       - type: set-bucket-encryption
         crypto: AES256
         enabled: True
